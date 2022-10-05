@@ -9,8 +9,8 @@ const Cocktail = ({cocktail}) => {
             <p>Name: {strDrink}</p>
             <p>Flavor: {strCategory}</p>
             <div className='flex mt-5'>
-            <button className='bg-gray-800 text-white sm:mt-3 sm:ml-5 px-3 rounded-full py-2'>Purchase</button>
-            <button className=' bg-gray-800 text-white sm:mt-3 sm:ml-5 px-3 rounded-full py-3'> Cart</button>
+            <button className=' text-gray-800 border-slate-900 border-solid border-2 bg-slate-300 hover:bg-gray-800 hover:text-white sm:mt-3 sm:ml-5 px-3 rounded-full py-2'>Buy Now</button>
+            <button className=' bg-gray-800 text-white sm:mt-2 hover:border-slate-900 border-solid border-2  hover:text-gray-800 hover:bg-slate-300 sm:ml-5 px-5 rounded-full py-3'>Add Cart</button>
             </div>
         </div>
         </div>
