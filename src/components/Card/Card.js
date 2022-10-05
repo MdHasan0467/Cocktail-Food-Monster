@@ -10,8 +10,7 @@ const Card = ({card}) => {
             <p>Category: {strCategory}</p>
             <p>Country: {strArea}</p>
             <div className='flex'>
-            <button className='bg-gray-800 text-white sm:mt-3 sm:ml-5 px-3 rounded-full py-2'>Purchase</button>
-            <button className='bg-gray-800 text-white sm:mt-3 sm:ml-5 px-3 rounded-full py-2'>Add To Cart</button>
+            <button className='bg-gray-800 text-white sm:mt-3 sm:ml-32 px-3 rounded-full py-2'>Purchase</button>
             </div>
         </div>
         </div>
