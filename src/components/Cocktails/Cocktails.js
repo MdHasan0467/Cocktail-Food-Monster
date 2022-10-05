@@ -6,7 +6,7 @@ const Cocktails = () => {
     const cocktails = useLoaderData()
     console.log(cocktails.drinks)
     return (
-        <div className='grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2'>y
+        <div className='grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2'>
         
             {
                 (cocktails.drinks).map(cocktail => <Cocktail key={cocktail.idDrink} cocktail={cocktail} ></Cocktail>)
