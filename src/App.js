@@ -6,6 +6,7 @@ import About from './components/About/About';
 import CardData from './components/CardData/CardData';
 import Card from './components/Card/Card';
 import Cocktails from './components/Cocktails/Cocktails';
+import Error from './components/Error/Error';
 
 function App() {
   const router = createBrowserRouter([
@@ -38,6 +39,10 @@ function App() {
        return fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s')
     },
     element : <Cocktails></Cocktails>
+  },
+      {
+    path : '*',
+    element : <Error></Error>
   },
     ],
     
