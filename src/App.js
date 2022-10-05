@@ -14,7 +14,11 @@ function App() {
     element : <Main></Main>,
     children: [
       {
-        path : '/home',
+        index:true,
+        element : <Home></Home>
+      },
+      {
+        path: '/home',
         element : <Home></Home>
       },
       {
