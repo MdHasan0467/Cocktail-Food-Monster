@@ -11,7 +11,7 @@ function App() {
   const router = createBrowserRouter([
   {
     path : '/',
-    element : <Home></Home>,
+    element : <Main></Main>,
     children: [
       {
         path : '/home',
@@ -20,10 +20,6 @@ function App() {
       {
         path : '/about',
         element : <About></About>
-      },
-      {
-        path : '/add',
-        element : <Main></Main>
       },
       {
     path : '/meal',

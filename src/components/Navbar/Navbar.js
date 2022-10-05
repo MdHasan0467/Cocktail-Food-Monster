@@ -12,7 +12,6 @@ const Navbar = () => {
             <Link className='sm:mr-6 py-2 sm:px-5 px-1 rounded-full hover:text-white hover:bg-gray-800' to='/home'>Home</Link>
             <Link className='sm:ml-6 py-2 sm:px-5 px-1 rounded-full hover:text-white hover:bg-gray-800' to='/meal'>Meal</Link>
             <Link className='sm:ml-6 py-2 sm:px-5 px-1 rounded-full hover:text-white hover:bg-gray-800' to='/cocktail'>Cocktail</Link>
-            <Link className='sm:ml-6 py-2 sm:px-5 px-1 rounded-full hover:text-white hover:bg-gray-800' to='/add'>Advertisement</Link>
             <Link className='sm:ml-6 py-2 sm:px-5 px-1 rounded-full hover:text-white hover:bg-gray-800' to='/about'>About</Link>
             </div>
             </div>
